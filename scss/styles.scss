@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  #top {
+    background-image: url('../img/img1.jpeg');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height:700px;
+  }
+}
