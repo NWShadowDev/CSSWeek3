@@ -9,5 +9,15 @@
     background-repeat: no-repeat;
     width: 1000px;
     height: 700px; }
+    .container #top h3 {
+      background-color: black;
+      padding: 5px;
+      color: white;
+      text-align: center;
+      font-size: 2em; }
+  .container h3 {
+    color: red;
+    background-color: black;
+    padding: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

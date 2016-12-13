@@ -10,5 +10,17 @@
     background-repeat: no-repeat;
     width: 1000px;
     height:700px;
+    h3 {
+      background-color: black;
+      padding: 5px;
+      color: white;
+      text-align: center;
+      font-size: 2em;
+    }
+  }
+  h3 {
+    color:red;
+    background-color: black;
+    padding: 5px;
   }
 }
