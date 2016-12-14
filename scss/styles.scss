@@ -4,8 +4,6 @@
 
 body {
   h3 {
-    // color:red;
-    // background-color: black;
     padding: 5px;
     text-align: center;
   }
@@ -29,6 +27,7 @@ body {
         bottom: 40px;
       }
       img {
+        // @include icons;
         width: 50px;
         height: 50px;
         float: right;
