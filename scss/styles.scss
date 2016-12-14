@@ -12,30 +12,29 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  .banner {
+    background-color: papayawhip;
+    width: 100%;
+    height: 150px;
+    h3 {
+      float: left;
+      margin-left: 10px;
+      font-size: 1.5em;
+      position: relative;
+    }
+  }
   #top {
     background-image: url('../img/img1.jpeg');
     background-repeat: no-repeat;
     width: 1000px;
     height:500px;
-    .banner {
-      background-color: papayawhip;
-      padding: 60px;
-      h3 {
-        float: left;
-        font-size: 1.5em;
-        position: relative;
-        bottom: 40px;
-      }
-      img {
-        // @include icons;
-        width: 50px;
-        height: 50px;
-        float: right;
-        position: relative;
-        bottom: 20px;
-        right: 10px;
-        padding: 5px;
-      }
-    }
+  }
+  .tan {
+    width: 100%;
+    background: tan;
+    height: 150px;
+    color: white;
+    font-family: arial;
+    padding: 20px;
   }
 }
