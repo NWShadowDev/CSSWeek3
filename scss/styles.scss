@@ -12,6 +12,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   .banner {
     background-color: papayawhip;
     width: 100%;
@@ -21,6 +22,14 @@ body {
       margin-left: 10px;
       font-size: 1.5em;
       position: relative;
+    }
+    img {
+      display: inline-block;
+      position: relative;
+      float: right;
+      right: 100px;
+      top: 28px;
+      padding: 5px;
     }
   }
   #top {
@@ -36,5 +45,21 @@ body {
     color: white;
     font-family: arial;
     padding: 20px;
+    h4 {
+      color:brown;
+      font-size: 16pt;
+      padding: 0;
+      margin: 0;
+    }
+    h5 {
+      font-size: 12pt;
+    }
+  }
+  .box {
+    height: 225px;
+    width: 45%;
+    background: silver;
+    margin: 5px;
+    justify-content: space-between;
   }
 }
