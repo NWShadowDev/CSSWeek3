@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box; }
 
+body h3 {
+  padding: 5px;
+  text-align: center; }
+
 .container {
   display: flex;
   flex-wrap: wrap; }
@@ -8,16 +12,22 @@
     background-image: url("../img/img1.jpeg");
     background-repeat: no-repeat;
     width: 1000px;
-    height: 700px; }
-    .container #top h3 {
-      background-color: black;
-      padding: 5px;
-      color: white;
-      text-align: center;
-      font-size: 2em; }
-  .container h3 {
-    color: red;
-    background-color: black;
-    padding: 5px; }
+    height: 500px; }
+    .container #top .banner {
+      background-color: papayawhip;
+      padding: 60px; }
+      .container #top .banner h3 {
+        float: left;
+        font-size: 1.5em;
+        position: relative;
+        bottom: 40px; }
+      .container #top .banner img {
+        width: 50px;
+        height: 50px;
+        float: right;
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+        padding: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
