@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box; }
 
-body h3 {
-  padding: 5px;
-  text-align: center; }
+body {
+  background-color: black; }
+  body h3 {
+    padding: 5px;
+    text-align: center; }
 
 .container {
   display: flex;
@@ -47,8 +49,28 @@ body h3 {
   .container .box {
     height: 225px;
     width: 45%;
-    background: silver;
+    background: gray;
     margin: 5px;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding: 10px; }
+    .container .box h4 {
+      font-weight: bold; }
+    .container .box button {
+      background: darkgrey;
+      width: 200px;
+      height: 30px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 12pt; }
+  .container #bottom {
+    width: 100%;
+    height: 200px;
+    background: white; }
+    .container #bottom h4, .container #bottom h5, .container #bottom button {
+      float: left;
+      right: 20px; }
+    .container #bottom img {
+      width: 50%; }
 
 /*# sourceMappingURL=styles.css.map */
