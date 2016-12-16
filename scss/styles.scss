@@ -81,12 +81,10 @@ body {
     width: 100%;
     height: auto;
     background: white;
-    .text {
-      float: left;
-      position: relative;
-    }
     img {
       width: 50%;
+      float: left;
+      margin: 10px;
     }
   }
 }
