@@ -1,0 +1,41 @@
+//Media Queries//
+
+
+// 424px and below
+@media screen and (max-width: 424px) {
+  .container {
+    .box {
+      width: 100%;
+      button {
+        width: 80%;
+        font-size: .8em;
+      }
+    }
+  }
+  #top {
+    background-size: auto;
+    background-position: left;
+  }
+}
+
+//425px and higher
+@media screen and (min-width: 425px) {
+  .container {
+    .box {
+      width: 47.3%;
+      button {
+        width: 60%;
+        font-size: .6em;
+      }
+    }
+  }
+}
+
+//768px and higher
+@media screen and (min-width: 768px) {
+  .container {
+    .box {
+      width: 48.6%;
+    }
+  }
+}
