@@ -91,13 +91,5 @@ body {
 @media screen and (min-width: 768px) {
   .container .box {
     width: 48.6%; } }
-@media screen and (min-width: 1000px) {
-  .container #top {
-    width: 50%; }
-  .container .tan {
-    width: 40%; }
-  .container .box {
-    float: right;
-    width: 30%; } }
 
 /*# sourceMappingURL=styles.css.map */
