@@ -65,6 +65,8 @@ body {
     width: 100%;
     height: auto;
     background: white; }
+    .container #bottom .text {
+      padding: 5px; }
     .container #bottom img {
       width: 50%;
       float: left;
@@ -75,7 +77,11 @@ body {
     width: 100%; }
     .container .box button {
       width: 80%;
-      font-size: .8em; } }
+      font-size: .8em; }
+
+  #top {
+    background-size: auto;
+    background-position: left; } }
 @media screen and (min-width: 425px) {
   .container .box {
     width: 47.3%; }
@@ -85,5 +91,13 @@ body {
 @media screen and (min-width: 768px) {
   .container .box {
     width: 48.6%; } }
+@media screen and (min-width: 1000px) {
+  .container #top {
+    width: 50%; }
+  .container .tan {
+    width: 40%; }
+  .container .box {
+    float: right;
+    width: 30%; } }
 
 /*# sourceMappingURL=styles.css.map */
