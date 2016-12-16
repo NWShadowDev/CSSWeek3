@@ -4,10 +4,6 @@
 
 body {
   background-color: black;
-  h3 {
-    padding: 5px;
-    text-align: center;
-  }
 }
 
 .container {
@@ -21,13 +17,13 @@ body {
     height: 90px;
     h3 {
       float: left;
+      bottom: 20px;
       margin-left: 10px;
       font-size: 1.5em;
       position: relative;
     }
     img {
       display: inline-block;
-      position: relative;
       float: right;
       right: 100px;
       top: 28px;
@@ -59,7 +55,7 @@ body {
   }
   .box {
     height: 225px;
-    width: 45%;
+    width: 46%;
     background: gray;
     margin: 5px;
     justify-content: space-between;
@@ -85,6 +81,37 @@ body {
       width: 50%;
       float: left;
       margin: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .container {
+    .box {
+      width: 100%;
+      button {
+        width: 80%;
+        font-size: .8em;
+      }
+    }
+  }
+  
+}
+@media screen and (min-width: 425px) {
+  .container {
+    .box {
+      width: 47.3%;
+      button {
+        width: 60%;
+        font-size: .6em;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    .box {
+      width: 48.6%;
     }
   }
 }
