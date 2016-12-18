@@ -97,7 +97,7 @@ body {
       font-size: 12pt; }
   .container .box {
     height: 225px;
-    background: gray;
+    background: grey;
     margin: 5px;
     justify-content: space-between;
     padding: 10px; }
@@ -110,7 +110,7 @@ body {
   .container #bottom {
     width: 100%;
     height: auto;
-    background: white; }
+    background: #fff; }
     .container #bottom .text {
       padding: 5px; }
     .container #bottom img {
