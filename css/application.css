@@ -8,12 +8,13 @@ body {
   .container .box {
     width: 100%; }
     .container .box button {
-      width: 80%;
-      font-size: .8em; }
+      margin-bottom: 20px; }
+    .container .box h5 {
+      padding: 0;
+      margin: 0 3px 3px 0; }
 
   #top {
-    background-size: auto;
-    background-position: left; } }
+    background-size: cover; } }
 @media screen and (min-width: 425px) {
   .container .box {
     width: 47.3%; }
@@ -27,7 +28,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 100%; }
+  max-width: 100%; }
   .container .banner {
     background-color: papayawhip;
     width: 100%;
@@ -47,6 +48,7 @@ body {
   .container #top {
     background-image: url("../img/img1.jpeg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 500px; }
   .container .tan {
@@ -74,7 +76,6 @@ body {
       font-weight: bold; }
     .container .box button {
       background: darkgrey;
-      width: 200px;
       height: 30px;
       display: block;
       margin: 0 auto;
