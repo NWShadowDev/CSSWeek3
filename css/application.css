@@ -1,26 +1,56 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 * {
   box-sizing: border-box; }
 
 body {
   background-color: black; }
+@font-face {
+  body {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/source-sans-pro/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/source-sans-pro/OpenSans-Regular.woff2") format("woff2"), url("/fonts/source-sans-pro/OpenSans-Regular.woff") format("woff"), url("/fonts/source-sans-pro/OpenSans-Regular.ttf") format("truetype"), url("/fonts/source-sans-pro/OpenSans-Regular.svg#OpenSans") format("svg"); } }
+.container .box button {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
 
 @media screen and (max-width: 424px) {
   .container .box {
-    width: 100%; }
+    width: 100%;
+    height: 190px; }
     .container .box button {
-      margin-bottom: 20px; }
+      margin: 0 auto;
+      padding: 0;
+      width: 100px;
+      height: 30px;
+      font-size: .4em; }
     .container .box h5 {
       padding: 0;
       margin: 0 3px 3px 0; }
 
   #top {
-    background-size: cover; } }
+    background-size: cover; }
+
+  #bottom .text h4, #bottom .text h5, #bottom .text button {
+    float: left; }
+  #bottom img {
+    width: 50%;
+    float: none; } }
 @media screen and (min-width: 425px) {
   .container .box {
     width: 47.3%; }
     .container .box button {
-      width: 60%;
-      font-size: .6em; } }
+      font-size: .6em; }
+
+  #bottom img {
+    width: 50%;
+    float: none; } }
 @media screen and (min-width: 768px) {
   .container .box {
     width: 48.6%; } }
@@ -55,7 +85,7 @@ body {
     width: 100%;
     background: tan;
     height: 150px;
-    color: white;
+    color: #fff;
     font-family: arial;
     padding: 20px; }
     .container .tan h4 {
@@ -67,7 +97,6 @@ body {
       font-size: 12pt; }
   .container .box {
     height: 225px;
-    width: 46%;
     background: gray;
     margin: 5px;
     justify-content: space-between;
@@ -77,9 +106,6 @@ body {
     .container .box button {
       background: darkgrey;
       height: 30px;
-      display: block;
-      margin: 0 auto;
-      text-align: center;
       font-size: 12pt; }
   .container #bottom {
     width: 100%;
@@ -88,8 +114,17 @@ body {
     .container #bottom .text {
       padding: 5px; }
     .container #bottom img {
-      width: 50%;
       float: left;
       margin: 10px; }
+
+.container .box button {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.container .box button {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=application.css.map */

@@ -1,4 +1,35 @@
+//Icon images
+
 @mixin icons ($width:60px, $height:60px) {
   width: $width;
   height: $height;
+}
+
+@mixin flex ($display:flex,$flex-wrap:wrap, $margin:0 auto, $maxW:100%) {
+  display: $display;
+  flex-wrap: $flex-wrap;
+  margin: $margin;
+  max-width: $maxW;
+}
+
+//Fonts
+@mixin font-face($family, $file) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$path-font}/#{$file}-webfont.eot');
+    src: url('#{$path-font}/#{$file}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$path-font}/#{$file}-webfont.woff') format('woff'),
+         url('#{$path-font}/#{$file}-webfont.ttf') format('truetype');
+  }
+}
+
+// Bourbon Mixin
+
+@mixin placeholder {
+  $placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
 }

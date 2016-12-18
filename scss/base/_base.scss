@@ -4,4 +4,5 @@
 
 body {
   background-color: black;
+  @include font-face("OpenSans", "/fonts/source-sans-pro/OpenSans-Regular");
 }
